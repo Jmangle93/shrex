@@ -7,11 +7,14 @@ public class GooberPickupSound : MonoBehaviour
     public AudioSource pickupSource;
     public void start()
     {
-        pickupSource = GetComponent<AudioSource>();
+        pickupSource = FindObjectOfType<AudioSource>();
     }
 
     public void play()
     {
-        pickupSource.Play();
+        if (gameObject != null)
+        {
+            AudioSource.PlayClipAtPoint(pickupSource.clip, transform.position);
+        }
     }
 }

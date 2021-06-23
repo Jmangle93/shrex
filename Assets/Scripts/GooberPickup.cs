@@ -12,7 +12,7 @@ public class GooberPickup : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            GetComponent<GooberPickupSound>().play();
+            FindObjectOfType<GooberPickupSound>().play();
             FindObjectOfType<GameManager>().AddGoober(gooberValue);
             Instantiate(pickupEffect, transform.position, transform.rotation);
             Destroy(gameObject);

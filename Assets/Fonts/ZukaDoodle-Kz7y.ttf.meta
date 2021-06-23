@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3b11a910b95aeed47a1406f2c875c962
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Zuka Doodle
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 94247f61b35cb54469ea05451f9d396a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
